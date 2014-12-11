@@ -97,17 +97,17 @@ pdoffsetcckma0=0
 # 11g: 14dBm(54M,48M)/15dBm(36M,24M,18M,12M)/16dBm(6M,9M)
 # 11n: 13dBm(MCS7)/14dBmMCS(5~3)/16dBm(MCS2~0)
 
-maxp2ga0=90
+maxp2ga0=80
 
 cckbw202gpo=0x0000
 cckbw20ul2gpo=0x0000
 cckbw20ul2gpo=0x0
 
-ofdmlrbw202gpo=0x8863
+ofdmlrbw202gpo=0x8864
 dot11agofdmhrbw202gpo=0x8866
 
 mcsbw202gpo=0xaa888884
-mcsbw402gpo=0xaa888882
+mcsbw402gpo=0xaa888884
 
 
 # Default Target Power for 5G 
@@ -118,22 +118,22 @@ mcsbw402gpo=0xaa888882
 # 11ac HT40 : 12dBm(MCS9~8) 13dBm(MCS7~0)
 # 11ac HT80 : 12dBm(MCS9~8) 13dBm(MCS7~0)
 
-maxp5ga0=82,80,80,84
+maxp5ga0=76,76,76,76
 
 tssifloor2g=500
 
 #low
-mcsbw205glpo=0x88866660
+mcsbw205glpo=0x88866662
 mcsbw405glpo=0x88866664
 mcsbw805glpo=0xaaa88886
 mcsbw1605glpo=0xaaa88886
 #mid
-mcsbw205gmpo=0x88866660
+mcsbw205gmpo=0x88866662
 mcsbw405gmpo=0x88866664
 mcsbw805gmpo=0xaaa88886
 mcsbw1605gmpo=0xaaa88886
 #high
-mcsbw205ghpo=0x88866660
+mcsbw205ghpo=0x88866662
 mcsbw405ghpo=0x88866664
 mcsbw805ghpo=0xaaa88886
 mcsbw1605ghpo=0xaaa88886
@@ -142,7 +142,7 @@ mcslr5glpo=0x0000
 mcslr5gmpo=0x0000
 mcslr5ghpo=0x0000
 
-sb20in40hrrpo=0x0
+sb20in40hrpo=0x0
 sb20in80and160hr5glpo=0x0
 sb40and80hr5glpo=0x0
 sb20in80and160hr5gmpo=0x0
